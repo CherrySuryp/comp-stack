@@ -1,0 +1,9 @@
+services:
+  fastapi:
+    image: cherrysuryp/comp-stack
+    container_name: comp-stack-fastapi
+    restart: always
+    volumes:
+      - ./sales_data.csv:/app/sales_data.csv
+    ports:
+      - "8000:8000"
