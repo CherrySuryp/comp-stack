@@ -1,0 +1,33 @@
+[tool.ruff]
+line-length = 120
+extend-exclude = ["alembic/*"]
+
+[tool.ruff.lint]
+# Add the `line-too-long` rule to the enforced rule set. By default, Ruff omits rules that
+# overlap with the use of a formatter, like Black, but we can override this behavior by
+# explicitly adding the rule.
+extend-select = ["E501"]
+[tool.poetry]
+name = "comp-stack-test-task"
+version = "1.0.0"
+description = ""
+authors = ["CherrySuryp <hackyourrself@proton.me>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+fastapi = "^0.115.6"
+uvicorn = "^0.33.0"
+pydantic = "^2.10.3"
+pandas = "^2.2.3"
+
+
+[tool.poetry.group.dev.dependencies]
+httpx = "^0.28.1"
+pytest = "^8.3.4"
+ruff = "^0.8.3"
+isort = "^5.13.2"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
