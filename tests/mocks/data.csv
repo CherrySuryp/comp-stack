@@ -1,0 +1,401 @@
+date,product_id,product_name,category,quantity_sold,price_per_unit
+2023-01-10,1016,Action Camera,Electronics,35,149.99
+2023-04-04,1017,Electric Toothbrush,Health & Beauty,33,49.99
+2023-02-21,1011,Notebook,Stationery,26,2.99
+2023-03-25,1009,Tablet,Electronics,16,299.99
+2023-02-11,1018,Hair Dryer,Health & Beauty,6,34.99
+2023-01-19,1010,Desk Lamp,Home & Garden,46,22.99
+2023-04-06,1002,Smartwatch,Electronics,14,199.99
+2023-02-07,1006,Blender,Home & Garden,44,29.99
+2023-04-08,1004,Jeans,Clothing,44,39.99
+2023-03-28,1012,Ballpoint Pen,Stationery,10,0.99
+2023-04-09,1004,Jeans,Clothing,49,39.99
+2023-01-02,1004,Jeans,Clothing,27,39.99
+2023-02-09,1008,Leather Boots,Footwear,43,89.99
+2023-02-01,1005,Coffee Maker,Home & Garden,3,49.99
+2023-02-03,1014,Backpack,Accessories,48,39.99
+2023-03-16,1018,Hair Dryer,Health & Beauty,24,34.99
+2023-02-08,1001,Wireless Headphones,Electronics,6,99.99
+2023-01-16,1015,Running Shorts,Clothing,27,25.99
+2023-03-24,1007,Sneakers,Footwear,13,59.99
+2023-03-14,1020,Fitness Tracker,Electronics,21,79.99
+2023-04-05,1009,Tablet,Electronics,36,299.99
+2023-01-17,1016,Action Camera,Electronics,10,149.99
+2023-03-25,1012,Ballpoint Pen,Stationery,24,0.99
+2023-03-18,1003,Cotton T-Shirt,Clothing,43,15.99
+2023-04-09,1001,Wireless Headphones,Electronics,48,99.99
+2023-03-22,1014,Backpack,Accessories,45,39.99
+2023-03-27,1018,Hair Dryer,Health & Beauty,31,34.99
+2023-01-12,1003,Cotton T-Shirt,Clothing,44,15.99
+2023-04-04,1009,Tablet,Electronics,2,299.99
+2023-03-06,1002,Smartwatch,Electronics,28,199.99
+2023-01-26,1010,Desk Lamp,Home & Garden,8,22.99
+2023-02-27,1019,Air Fryer,Home & Garden,42,99.99
+2023-03-04,1015,Running Shorts,Clothing,29,25.99
+2023-01-29,1005,Coffee Maker,Home & Garden,18,49.99
+2023-01-05,1019,Air Fryer,Home & Garden,37,99.99
+2023-02-28,1018,Hair Dryer,Health & Beauty,12,34.99
+2023-01-27,1015,Running Shorts,Clothing,41,25.99
+2023-03-28,1009,Tablet,Electronics,15,299.99
+2023-04-03,1012,Ballpoint Pen,Stationery,8,0.99
+2023-01-10,1004,Jeans,Clothing,13,39.99
+2023-03-18,1013,Water Bottle,Accessories,1,12.99
+2023-02-06,1002,Smartwatch,Electronics,21,199.99
+2023-03-19,1017,Electric Toothbrush,Health & Beauty,47,49.99
+2023-03-11,1011,Notebook,Stationery,10,2.99
+2023-04-03,1007,Sneakers,Footwear,14,59.99
+2023-02-24,1008,Leather Boots,Footwear,17,89.99
+2023-02-13,1007,Sneakers,Footwear,18,59.99
+2023-02-19,1018,Hair Dryer,Health & Beauty,22,34.99
+2023-02-25,1015,Running Shorts,Clothing,22,25.99
+2023-01-10,1007,Sneakers,Footwear,38,59.99
+2023-03-28,1018,Hair Dryer,Health & Beauty,7,34.99
+2023-01-18,1001,Wireless Headphones,Electronics,42,99.99
+2023-02-19,1001,Wireless Headphones,Electronics,24,99.99
+2023-04-05,1005,Coffee Maker,Home & Garden,45,49.99
+2023-04-04,1014,Backpack,Accessories,21,39.99
+2023-01-15,1020,Fitness Tracker,Electronics,22,79.99
+2023-01-09,1011,Notebook,Stationery,6,2.99
+2023-03-28,1017,Electric Toothbrush,Health & Beauty,19,49.99
+2023-03-22,1011,Notebook,Stationery,21,2.99
+2023-02-26,1009,Tablet,Electronics,38,299.99
+2023-03-19,1017,Electric Toothbrush,Health & Beauty,28,49.99
+2023-03-05,1007,Sneakers,Footwear,15,59.99
+2023-01-12,1013,Water Bottle,Accessories,12,12.99
+2023-03-02,1016,Action Camera,Electronics,38,149.99
+2023-01-10,1016,Action Camera,Electronics,5,149.99
+2023-04-04,1006,Blender,Home & Garden,14,29.99
+2023-03-27,1001,Wireless Headphones,Electronics,43,99.99
+2023-01-19,1018,Hair Dryer,Health & Beauty,14,34.99
+2023-03-04,1016,Action Camera,Electronics,30,149.99
+2023-02-15,1009,Tablet,Electronics,4,299.99
+2023-02-04,1019,Air Fryer,Home & Garden,13,99.99
+2023-02-04,1012,Ballpoint Pen,Stationery,46,0.99
+2023-04-10,1011,Notebook,Stationery,34,2.99
+2023-03-15,1014,Backpack,Accessories,11,39.99
+2023-03-04,1008,Leather Boots,Footwear,15,89.99
+2023-02-01,1007,Sneakers,Footwear,25,59.99
+2023-04-05,1010,Desk Lamp,Home & Garden,23,22.99
+2023-02-26,1018,Hair Dryer,Health & Beauty,20,34.99
+2023-02-15,1003,Cotton T-Shirt,Clothing,47,15.99
+2023-02-11,1007,Sneakers,Footwear,33,59.99
+2023-03-27,1013,Water Bottle,Accessories,2,12.99
+2023-03-08,1012,Ballpoint Pen,Stationery,24,0.99
+2023-02-15,1002,Smartwatch,Electronics,34,199.99
+2023-03-24,1020,Fitness Tracker,Electronics,34,79.99
+2023-03-03,1011,Notebook,Stationery,49,2.99
+2023-01-27,1001,Wireless Headphones,Electronics,28,99.99
+2023-03-12,1016,Action Camera,Electronics,24,149.99
+2023-03-21,1016,Action Camera,Electronics,20,149.99
+2023-02-07,1004,Jeans,Clothing,5,39.99
+2023-04-06,1018,Hair Dryer,Health & Beauty,33,34.99
+2023-02-25,1010,Desk Lamp,Home & Garden,8,22.99
+2023-01-13,1008,Leather Boots,Footwear,27,89.99
+2023-03-17,1017,Electric Toothbrush,Health & Beauty,38,49.99
+2023-03-20,1010,Desk Lamp,Home & Garden,16,22.99
+2023-02-18,1018,Hair Dryer,Health & Beauty,6,34.99
+2023-03-04,1015,Running Shorts,Clothing,29,25.99
+2023-03-05,1006,Blender,Home & Garden,30,29.99
+2023-03-10,1004,Jeans,Clothing,42,39.99
+2023-02-22,1008,Leather Boots,Footwear,38,89.99
+2023-02-16,1001,Wireless Headphones,Electronics,15,99.99
+2023-01-27,1014,Backpack,Accessories,11,39.99
+2023-01-12,1007,Sneakers,Footwear,22,59.99
+2023-01-26,1014,Backpack,Accessories,18,39.99
+2023-02-26,1012,Ballpoint Pen,Stationery,20,0.99
+2023-01-20,1018,Hair Dryer,Health & Beauty,16,34.99
+2023-02-22,1003,Cotton T-Shirt,Clothing,9,15.99
+2023-03-25,1007,Sneakers,Footwear,12,59.99
+2023-01-12,1017,Electric Toothbrush,Health & Beauty,31,49.99
+2023-04-09,1005,Coffee Maker,Home & Garden,26,49.99
+2023-01-14,1008,Leather Boots,Footwear,38,89.99
+2023-02-06,1007,Sneakers,Footwear,16,59.99
+2023-01-31,1004,Jeans,Clothing,35,39.99
+2023-02-23,1011,Notebook,Stationery,43,2.99
+2023-02-09,1010,Desk Lamp,Home & Garden,7,22.99
+2023-03-20,1002,Smartwatch,Electronics,39,199.99
+2023-03-14,1019,Air Fryer,Home & Garden,18,99.99
+2023-03-22,1010,Desk Lamp,Home & Garden,42,22.99
+2023-01-13,1020,Fitness Tracker,Electronics,9,79.99
+2023-01-12,1002,Smartwatch,Electronics,27,199.99
+2023-03-07,1013,Water Bottle,Accessories,5,12.99
+2023-02-05,1008,Leather Boots,Footwear,3,89.99
+2023-01-25,1005,Coffee Maker,Home & Garden,33,49.99
+2023-03-16,1009,Tablet,Electronics,30,299.99
+2023-01-27,1002,Smartwatch,Electronics,34,199.99
+2023-03-20,1010,Desk Lamp,Home & Garden,44,22.99
+2023-01-13,1003,Cotton T-Shirt,Clothing,42,15.99
+2023-03-30,1003,Cotton T-Shirt,Clothing,36,15.99
+2023-03-15,1002,Smartwatch,Electronics,13,199.99
+2023-02-07,1008,Leather Boots,Footwear,23,89.99
+2023-04-05,1019,Air Fryer,Home & Garden,25,99.99
+2023-02-03,1007,Sneakers,Footwear,23,59.99
+2023-01-19,1015,Running Shorts,Clothing,5,25.99
+2023-02-27,1006,Blender,Home & Garden,41,29.99
+2023-02-08,1007,Sneakers,Footwear,31,59.99
+2023-01-20,1006,Blender,Home & Garden,39,29.99
+2023-02-12,1012,Ballpoint Pen,Stationery,1,0.99
+2023-02-24,1006,Blender,Home & Garden,15,29.99
+2023-02-18,1013,Water Bottle,Accessories,2,12.99
+2023-03-10,1006,Blender,Home & Garden,44,29.99
+2023-01-20,1007,Sneakers,Footwear,6,59.99
+2023-02-19,1011,Notebook,Stationery,12,2.99
+2023-03-31,1010,Desk Lamp,Home & Garden,36,22.99
+2023-01-14,1012,Ballpoint Pen,Stationery,37,0.99
+2023-03-12,1006,Blender,Home & Garden,29,29.99
+2023-04-07,1009,Tablet,Electronics,49,299.99
+2023-03-21,1005,Coffee Maker,Home & Garden,26,49.99
+2023-03-16,1005,Coffee Maker,Home & Garden,12,49.99
+2023-01-17,1006,Blender,Home & Garden,37,29.99
+2023-03-30,1011,Notebook,Stationery,25,2.99
+2023-02-15,1015,Running Shorts,Clothing,48,25.99
+2023-03-05,1001,Wireless Headphones,Electronics,7,99.99
+2023-01-20,1017,Electric Toothbrush,Health & Beauty,6,49.99
+2023-02-17,1016,Action Camera,Electronics,29,149.99
+2023-03-12,1016,Action Camera,Electronics,19,149.99
+2023-01-23,1002,Smartwatch,Electronics,22,199.99
+2023-01-17,1012,Ballpoint Pen,Stationery,33,0.99
+2023-02-17,1016,Action Camera,Electronics,38,149.99
+2023-01-30,1003,Cotton T-Shirt,Clothing,36,15.99
+2023-01-26,1018,Hair Dryer,Health & Beauty,33,34.99
+2023-03-22,1004,Jeans,Clothing,44,39.99
+2023-02-27,1020,Fitness Tracker,Electronics,8,79.99
+2023-02-21,1016,Action Camera,Electronics,4,149.99
+2023-01-02,1005,Coffee Maker,Home & Garden,43,49.99
+2023-03-23,1004,Jeans,Clothing,25,39.99
+2023-01-11,1018,Hair Dryer,Health & Beauty,39,34.99
+2023-04-08,1012,Ballpoint Pen,Stationery,28,0.99
+2023-02-05,1013,Water Bottle,Accessories,35,12.99
+2023-02-11,1014,Backpack,Accessories,5,39.99
+2023-03-21,1002,Smartwatch,Electronics,25,199.99
+2023-01-03,1017,Electric Toothbrush,Health & Beauty,19,49.99
+2023-02-19,1005,Coffee Maker,Home & Garden,27,49.99
+2023-01-04,1011,Notebook,Stationery,28,2.99
+2023-01-20,1018,Hair Dryer,Health & Beauty,49,34.99
+2023-01-23,1003,Cotton T-Shirt,Clothing,46,15.99
+2023-03-17,1004,Jeans,Clothing,21,39.99
+2023-03-29,1016,Action Camera,Electronics,45,149.99
+2023-03-11,1005,Coffee Maker,Home & Garden,41,49.99
+2023-04-04,1010,Desk Lamp,Home & Garden,36,22.99
+2023-01-08,1008,Leather Boots,Footwear,34,89.99
+2023-02-25,1018,Hair Dryer,Health & Beauty,42,34.99
+2023-03-07,1004,Jeans,Clothing,10,39.99
+2023-03-10,1014,Backpack,Accessories,17,39.99
+2023-03-19,1005,Coffee Maker,Home & Garden,43,49.99
+2023-02-19,1017,Electric Toothbrush,Health & Beauty,40,49.99
+2023-01-23,1020,Fitness Tracker,Electronics,16,79.99
+2023-03-09,1013,Water Bottle,Accessories,43,12.99
+2023-03-01,1004,Jeans,Clothing,46,39.99
+2023-03-10,1013,Water Bottle,Accessories,34,12.99
+2023-03-09,1005,Coffee Maker,Home & Garden,41,49.99
+2023-02-12,1002,Smartwatch,Electronics,25,199.99
+2023-01-16,1008,Leather Boots,Footwear,28,89.99
+2023-04-08,1013,Water Bottle,Accessories,6,12.99
+2023-03-20,1008,Leather Boots,Footwear,27,89.99
+2023-01-03,1019,Air Fryer,Home & Garden,29,99.99
+2023-04-08,1019,Air Fryer,Home & Garden,23,99.99
+2023-01-27,1006,Blender,Home & Garden,39,29.99
+2023-01-26,1004,Jeans,Clothing,10,39.99
+2023-01-02,1004,Jeans,Clothing,27,39.99
+2023-03-15,1004,Jeans,Clothing,8,39.99
+2023-01-31,1004,Jeans,Clothing,1,39.99
+2023-02-14,1011,Notebook,Stationery,6,2.99
+2023-01-08,1016,Action Camera,Electronics,29,149.99
+2023-01-27,1005,Coffee Maker,Home & Garden,29,49.99
+2023-03-17,1012,Ballpoint Pen,Stationery,40,0.99
+2023-03-01,1013,Water Bottle,Accessories,14,12.99
+2023-02-13,1011,Notebook,Stationery,14,2.99
+2023-01-31,1007,Sneakers,Footwear,19,59.99
+2023-01-31,1009,Tablet,Electronics,22,299.99
+2023-02-22,1005,Coffee Maker,Home & Garden,28,49.99
+2023-03-30,1010,Desk Lamp,Home & Garden,37,22.99
+2023-03-21,1014,Backpack,Accessories,33,39.99
+2023-04-02,1008,Leather Boots,Footwear,40,89.99
+2023-02-22,1012,Ballpoint Pen,Stationery,40,0.99
+2023-02-28,1020,Fitness Tracker,Electronics,13,79.99
+2023-01-25,1019,Air Fryer,Home & Garden,8,99.99
+2023-02-24,1018,Hair Dryer,Health & Beauty,33,34.99
+2023-02-17,1012,Ballpoint Pen,Stationery,17,0.99
+2023-01-22,1013,Water Bottle,Accessories,20,12.99
+2023-03-13,1008,Leather Boots,Footwear,16,89.99
+2023-04-05,1018,Hair Dryer,Health & Beauty,34,34.99
+2023-02-06,1016,Action Camera,Electronics,40,149.99
+2023-02-05,1014,Backpack,Accessories,47,39.99
+2023-02-14,1015,Running Shorts,Clothing,38,25.99
+2023-03-16,1020,Fitness Tracker,Electronics,43,79.99
+2023-02-05,1015,Running Shorts,Clothing,20,25.99
+2023-03-31,1007,Sneakers,Footwear,42,59.99
+2023-02-07,1012,Ballpoint Pen,Stationery,24,0.99
+2023-04-06,1006,Blender,Home & Garden,30,29.99
+2023-03-26,1003,Cotton T-Shirt,Clothing,7,15.99
+2023-03-11,1004,Jeans,Clothing,47,39.99
+2023-03-22,1020,Fitness Tracker,Electronics,11,79.99
+2023-03-22,1002,Smartwatch,Electronics,19,199.99
+2023-03-11,1006,Blender,Home & Garden,40,29.99
+2023-03-08,1017,Electric Toothbrush,Health & Beauty,4,49.99
+2023-02-27,1017,Electric Toothbrush,Health & Beauty,46,49.99
+2023-03-08,1019,Air Fryer,Home & Garden,25,99.99
+2023-04-07,1005,Coffee Maker,Home & Garden,41,49.99
+2023-01-01,1018,Hair Dryer,Health & Beauty,17,34.99
+2023-02-13,1011,Notebook,Stationery,23,2.99
+2023-02-19,1002,Smartwatch,Electronics,29,199.99
+2023-02-12,1018,Hair Dryer,Health & Beauty,49,34.99
+2023-04-07,1010,Desk Lamp,Home & Garden,25,22.99
+2023-01-16,1010,Desk Lamp,Home & Garden,14,22.99
+2023-02-24,1003,Cotton T-Shirt,Clothing,14,15.99
+2023-03-15,1015,Running Shorts,Clothing,19,25.99
+2023-03-06,1017,Electric Toothbrush,Health & Beauty,33,49.99
+2023-02-27,1002,Smartwatch,Electronics,20,199.99
+2023-02-12,1013,Water Bottle,Accessories,32,12.99
+2023-01-19,1014,Backpack,Accessories,11,39.99
+2023-02-11,1020,Fitness Tracker,Electronics,47,79.99
+2023-03-18,1013,Water Bottle,Accessories,9,12.99
+2023-02-13,1013,Water Bottle,Accessories,10,12.99
+2023-01-10,1019,Air Fryer,Home & Garden,28,99.99
+2023-03-15,1010,Desk Lamp,Home & Garden,19,22.99
+2023-01-12,1009,Tablet,Electronics,34,299.99
+2023-01-09,1020,Fitness Tracker,Electronics,49,79.99
+2023-02-20,1008,Leather Boots,Footwear,21,89.99
+2023-01-11,1017,Electric Toothbrush,Health & Beauty,12,49.99
+2023-02-13,1002,Smartwatch,Electronics,16,199.99
+2023-01-26,1020,Fitness Tracker,Electronics,18,79.99
+2023-01-17,1016,Action Camera,Electronics,26,149.99
+2023-02-16,1013,Water Bottle,Accessories,32,12.99
+2023-02-20,1020,Fitness Tracker,Electronics,40,79.99
+2023-04-07,1005,Coffee Maker,Home & Garden,5,49.99
+2023-03-16,1016,Action Camera,Electronics,5,149.99
+2023-03-02,1011,Notebook,Stationery,31,2.99
+2023-04-05,1008,Leather Boots,Footwear,3,89.99
+2023-03-14,1005,Coffee Maker,Home & Garden,50,49.99
+2023-01-24,1006,Blender,Home & Garden,6,29.99
+2023-03-26,1018,Hair Dryer,Health & Beauty,47,34.99
+2023-02-06,1003,Cotton T-Shirt,Clothing,27,15.99
+2023-01-15,1004,Jeans,Clothing,44,39.99
+2023-01-07,1003,Cotton T-Shirt,Clothing,33,15.99
+2023-02-18,1005,Coffee Maker,Home & Garden,5,49.99
+2023-01-24,1020,Fitness Tracker,Electronics,19,79.99
+2023-03-20,1018,Hair Dryer,Health & Beauty,2,34.99
+2023-03-19,1002,Smartwatch,Electronics,24,199.99
+2023-04-03,1010,Desk Lamp,Home & Garden,32,22.99
+2023-03-31,1006,Blender,Home & Garden,39,29.99
+2023-01-29,1015,Running Shorts,Clothing,34,25.99
+2023-01-31,1002,Smartwatch,Electronics,19,199.99
+2023-02-20,1001,Wireless Headphones,Electronics,45,99.99
+2023-03-04,1007,Sneakers,Footwear,29,59.99
+2023-04-07,1013,Water Bottle,Accessories,48,12.99
+2023-04-06,1002,Smartwatch,Electronics,1,199.99
+2023-03-08,1004,Jeans,Clothing,9,39.99
+2023-01-12,1001,Wireless Headphones,Electronics,22,99.99
+2023-02-18,1010,Desk Lamp,Home & Garden,47,22.99
+2023-01-21,1017,Electric Toothbrush,Health & Beauty,7,49.99
+2023-02-17,1015,Running Shorts,Clothing,15,25.99
+2023-03-25,1001,Wireless Headphones,Electronics,11,99.99
+2023-03-03,1013,Water Bottle,Accessories,36,12.99
+2023-01-19,1020,Fitness Tracker,Electronics,19,79.99
+2023-01-19,1002,Smartwatch,Electronics,38,199.99
+2023-03-03,1006,Blender,Home & Garden,28,29.99
+2023-03-16,1019,Air Fryer,Home & Garden,36,99.99
+2023-01-30,1020,Fitness Tracker,Electronics,37,79.99
+2023-03-15,1005,Coffee Maker,Home & Garden,36,49.99
+2023-01-19,1006,Blender,Home & Garden,23,29.99
+2023-01-20,1018,Hair Dryer,Health & Beauty,50,34.99
+2023-03-15,1014,Backpack,Accessories,42,39.99
+2023-03-18,1019,Air Fryer,Home & Garden,16,99.99
+2023-04-03,1016,Action Camera,Electronics,8,149.99
+2023-01-12,1017,Electric Toothbrush,Health & Beauty,47,49.99
+2023-02-11,1006,Blender,Home & Garden,15,29.99
+2023-02-06,1007,Sneakers,Footwear,19,59.99
+2023-03-24,1015,Running Shorts,Clothing,33,25.99
+2023-01-19,1015,Running Shorts,Clothing,47,25.99
+2023-01-20,1003,Cotton T-Shirt,Clothing,37,15.99
+2023-03-05,1008,Leather Boots,Footwear,31,89.99
+2023-03-26,1014,Backpack,Accessories,45,39.99
+2023-01-06,1003,Cotton T-Shirt,Clothing,44,15.99
+2023-03-28,1002,Smartwatch,Electronics,3,199.99
+2023-01-04,1017,Electric Toothbrush,Health & Beauty,4,49.99
+2023-01-16,1007,Sneakers,Footwear,2,59.99
+2023-01-04,1006,Blender,Home & Garden,10,29.99
+2023-03-16,1006,Blender,Home & Garden,25,29.99
+2023-04-09,1010,Desk Lamp,Home & Garden,48,22.99
+2023-03-07,1006,Blender,Home & Garden,5,29.99
+2023-03-03,1018,Hair Dryer,Health & Beauty,40,34.99
+2023-01-10,1006,Blender,Home & Garden,4,29.99
+2023-01-24,1014,Backpack,Accessories,18,39.99
+2023-03-02,1019,Air Fryer,Home & Garden,43,99.99
+2023-01-02,1014,Backpack,Accessories,14,39.99
+2023-01-14,1006,Blender,Home & Garden,4,29.99
+2023-03-27,1018,Hair Dryer,Health & Beauty,17,34.99
+2023-01-13,1017,Electric Toothbrush,Health & Beauty,49,49.99
+2023-03-30,1007,Sneakers,Footwear,30,59.99
+2023-02-17,1001,Wireless Headphones,Electronics,47,99.99
+2023-01-04,1008,Leather Boots,Footwear,49,89.99
+2023-03-30,1018,Hair Dryer,Health & Beauty,39,34.99
+2023-03-29,1007,Sneakers,Footwear,45,59.99
+2023-02-20,1020,Fitness Tracker,Electronics,35,79.99
+2023-02-14,1020,Fitness Tracker,Electronics,17,79.99
+2023-01-28,1008,Leather Boots,Footwear,40,89.99
+2023-03-05,1004,Jeans,Clothing,45,39.99
+2023-01-07,1006,Blender,Home & Garden,3,29.99
+2023-01-20,1002,Smartwatch,Electronics,3,199.99
+2023-02-09,1016,Action Camera,Electronics,30,149.99
+2023-02-04,1012,Ballpoint Pen,Stationery,19,0.99
+2023-02-07,1019,Air Fryer,Home & Garden,49,99.99
+2023-03-13,1017,Electric Toothbrush,Health & Beauty,40,49.99
+2023-04-06,1007,Sneakers,Footwear,14,59.99
+2023-03-07,1005,Coffee Maker,Home & Garden,47,49.99
+2023-03-01,1016,Action Camera,Electronics,26,149.99
+2023-04-07,1004,Jeans,Clothing,39,39.99
+2023-01-16,1016,Action Camera,Electronics,10,149.99
+2023-01-05,1015,Running Shorts,Clothing,32,25.99
+2023-02-23,1020,Fitness Tracker,Electronics,39,79.99
+2023-04-02,1013,Water Bottle,Accessories,33,12.99
+2023-02-13,1016,Action Camera,Electronics,17,149.99
+2023-03-12,1011,Notebook,Stationery,12,2.99
+2023-01-26,1004,Jeans,Clothing,40,39.99
+2023-02-02,1013,Water Bottle,Accessories,13,12.99
+2023-02-26,1012,Ballpoint Pen,Stationery,16,0.99
+2023-03-14,1010,Desk Lamp,Home & Garden,38,22.99
+2023-02-16,1004,Jeans,Clothing,5,39.99
+2023-01-18,1013,Water Bottle,Accessories,24,12.99
+2023-01-03,1007,Sneakers,Footwear,12,59.99
+2023-03-02,1009,Tablet,Electronics,43,299.99
+2023-03-22,1013,Water Bottle,Accessories,23,12.99
+2023-02-22,1005,Coffee Maker,Home & Garden,41,49.99
+2023-04-04,1009,Tablet,Electronics,6,299.99
+2023-03-02,1016,Action Camera,Electronics,19,149.99
+2023-02-15,1019,Air Fryer,Home & Garden,48,99.99
+2023-03-16,1015,Running Shorts,Clothing,46,25.99
+2023-01-20,1004,Jeans,Clothing,3,39.99
+2023-02-28,1005,Coffee Maker,Home & Garden,24,49.99
+2023-03-13,1016,Action Camera,Electronics,46,149.99
+2023-02-21,1002,Smartwatch,Electronics,8,199.99
+2023-04-07,1019,Air Fryer,Home & Garden,14,99.99
+2023-04-06,1015,Running Shorts,Clothing,29,25.99
+2023-01-31,1009,Tablet,Electronics,46,299.99
+2023-02-12,1006,Blender,Home & Garden,12,29.99
+2023-02-19,1013,Water Bottle,Accessories,10,12.99
+2023-01-31,1017,Electric Toothbrush,Health & Beauty,15,49.99
+2023-02-28,1016,Action Camera,Electronics,9,149.99
+2023-04-05,1012,Ballpoint Pen,Stationery,27,0.99
+2023-03-24,1002,Smartwatch,Electronics,10,199.99
+2023-03-12,1020,Fitness Tracker,Electronics,16,79.99
+2023-01-21,1012,Ballpoint Pen,Stationery,43,0.99
+2023-03-24,1017,Electric Toothbrush,Health & Beauty,25,49.99
+2023-01-02,1006,Blender,Home & Garden,40,29.99
+2023-02-13,1009,Tablet,Electronics,20,299.99
+2023-03-09,1011,Notebook,Stationery,24,2.99
+2023-03-14,1016,Action Camera,Electronics,42,149.99
+2023-01-18,1018,Hair Dryer,Health & Beauty,42,34.99
+2023-01-30,1011,Notebook,Stationery,13,2.99
+2023-01-11,1018,Hair Dryer,Health & Beauty,19,34.99
+2023-04-10,1008,Leather Boots,Footwear,38,89.99
+2023-01-06,1020,Fitness Tracker,Electronics,2,79.99
+2023-02-05,1015,Running Shorts,Clothing,45,25.99
+2023-03-30,1007,Sneakers,Footwear,4,59.99
+2023-01-28,1005,Coffee Maker,Home & Garden,16,49.99
+2023-02-05,1016,Action Camera,Electronics,40,149.99
+2023-04-01,1006,Blender,Home & Garden,12,29.99
+2023-01-25,1008,Leather Boots,Footwear,12,89.99
+2023-02-03,1006,Blender,Home & Garden,9,29.99
+2023-01-07,1017,Electric Toothbrush,Health & Beauty,38,49.99
+2023-03-19,1020,Fitness Tracker,Electronics,22,79.99
