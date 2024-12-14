@@ -3,6 +3,8 @@ from functools import wraps
 
 import pandas as pd
 
+from app.config import config
+
 
 def singleton(cls):
     instances = {}
@@ -18,7 +20,7 @@ def singleton(cls):
 
 @singleton
 class DataLoader:
-    def __init__(self, file_path: str = "sales_data.csv"):
+    def __init__(self, file_path: str = config.DATA_FILE_PATH):
         if not os.path.exists(file_path):
             raise FileNotFoundError(f"Couldn't open file {file_path}")
         self._file_path = file_path
