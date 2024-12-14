@@ -1,4 +1,7 @@
+import os
 from functools import wraps
+
+import pandas as pd
 
 
 def singleton(cls):
@@ -11,3 +14,19 @@ def singleton(cls):
         return instances[cls]
 
     return get_instance
+
+
+@singleton
+class DataLoader:
+    def __init__(self, file_path: str = "sales_data.csv"):
+        if not os.path.exists(file_path):
+            raise FileNotFoundError(f"Couldn't open file {file_path}")
+        self._file_path = file_path
+        self._data = None
+
+    def load(self):
+        self._data = pd.read_csv(self._file_path, delimiter=",", parse_dates=["date"])
+
+    @property
+    def data(self) -> pd.DataFrame:
+        return self._data

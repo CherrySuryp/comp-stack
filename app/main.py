@@ -5,7 +5,7 @@ from fastapi import Depends, FastAPI
 
 from app.dependencies import make_summary
 from app.schema import Summary
-from app.service import DataLoader
+from app.utils import DataLoader
 
 
 @asynccontextmanager

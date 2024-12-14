@@ -1,5 +1,6 @@
 from app.schema import GetSummary, Summary
-from app.service import DataLoader, Summarizer
+from app.processing.summarizer import Summarizer
+from app.utils import DataLoader
 
 data_loader = DataLoader()
 summarizer = Summarizer()
