@@ -14,7 +14,7 @@ async def lifespan(app: FastAPI):  # noqa
     yield
 
 
-app = FastAPI(title="Comp Stack test task", lifespan=lifespan)
+app = FastAPI(title="Comp Stack Summary Data", lifespan=lifespan)
 
 
 @app.post(
