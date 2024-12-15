@@ -111,13 +111,3 @@ uvicorn app.main:app --port=8000
 Once the application successfully starts, you can visit the endpoint:
 - **Swagger Documentation**: `http://127.0.0.1:8000/docs`
 - **Redoc Documentation**: `http://127.0.0.1:8000/redoc`
-
-These provide the API documentation and interactive tools to test your endpoints.
-## Troubleshooting
-- **File Not Found Error**:
-    - Ensure the `sales_data.csv` file exists in the project root or the correct file path is defined in the `.env` file.
-    - Verify the `DATA_FILE_PATH` value points to the correct path or filename.
-
-- **Dependency Issues**:
-    - Ensure you ran `poetry install --no-root` from the correct directory.
-    - You can force reinstalling dependencies by running `poetry install` again.
