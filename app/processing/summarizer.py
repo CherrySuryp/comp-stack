@@ -1,7 +1,5 @@
 import pandas as pd
 
-from app.schema import Metrics
-
 
 class DataSummarizer:
     @staticmethod
@@ -10,8 +8,7 @@ class DataSummarizer:
         for column in columns:
             if column not in df.columns or not pd.api.types.is_numeric_dtype(df[column]):
                 continue
-
-            summary[column] = Metrics(
+            summary[column] = dict(
                 mean=df[column].mean(),
                 median=df[column].median(),
                 mode=df[column].mode()[0] if not df[column].mode().empty else None,
