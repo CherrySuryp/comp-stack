@@ -1,7 +1,6 @@
 # Comp Stack
-## Installation
-### Docker
-#### Prerequisites
+## Run with Docker
+### Prerequisites
 Ensure you have the following installed on your system:
 1. Docker (latest stable version recommended)
 2. Docker Compose (compatible with the installed Docker version)
@@ -47,7 +46,7 @@ Start the service with Docker Compose:
 Open your browser and navigate to `http://localhost:8000`.
 If the service is running properly, the FastAPI application should be accessible.
 
-#### Volumes Configuration for Data File
+### Volumes Configuration for Data File
 The application uses Docker volumes to mount the local data file into the container for easy access. By default, the file `./sales_data.csv` is mapped to `/app/sales_data.csv` inside the container using this configuration:
 ``` yaml
 volumes:
@@ -65,10 +64,60 @@ If your data file has:
      - /absolute/path/to/your_file.csv:/app/sales_data.csv
 ```
 
-#### Troubleshooting
+### Troubleshooting
 - **File Not Found Error**: Ensure the `sales_data.csv` file is mounted properly using volumes and is accessible at the specified path in the container. Adjust the `DATA_FILE_PATH` variable if necessary.
 - **Cannot Access Service at Port 8000**: Verify your firewall settings and ensure the port `8000` is not blocked or used by another process.
 - **Restart Issues**: Since the container restarts automatically (`restart: always`), check the logs for debugging:
 ``` bash
    docker logs comp-stack-fastapi
 ```
+
+## Run locally
+### Prerequisites
+Before proceeding, make sure you have the following installed on your system:
+1. **Python**: Version `3.12` or greater.
+2. **Poetry**: If not already installed, you will install it via the instructions below.
+3. **Uvicorn**: It will be installed as part of the dependencies.
+
+### Steps to Deploy Locally
+1. Install Poetry
+First, ensure you have a supported version of Python installed. Then, install `poetry` by running:
+``` bash
+pip install poetry  
+```
+
+#### 2. Install Dependencies
+Once Poetry is installed, install the application's required dependencies by running the following command in the project's root directory:
+``` bash
+poetry install --no-root  
+```
+This will set up a virtual environment, resolve dependencies, and install them in the isolated environment.
+#### 3. Prepare the Data File
+Ensure that your data file, `sales_data.csv`, is placed in the project root. By default, the application will look for this file at `./sales_data.csv`.
+#### If the file name or path differs:
+1. Create a `.env` file in the root directory of the project (if not already present).
+2. Add the following line to specify the correct file path:
+``` bash
+DATA_FILE_PATH=/path/to/your_data_file.csv  
+```
+Be sure to replace `/path/to/your_data_file.csv` with the absolute or relative path to your actual data file.
+#### 4. Run the FastAPI Application
+Start the application by running the following command in the project root directory:
+``` bash
+uvicorn app.main:app --port=8000  
+```
+
+## Verifying the Deployment
+Once the application successfully starts, you can visit the endpoint:
+- **Swagger Documentation**: `http://127.0.0.1:8000/docs`
+- **Redoc Documentation**: `http://127.0.0.1:8000/redoc`
+
+These provide the API documentation and interactive tools to test your endpoints.
+## Troubleshooting
+- **File Not Found Error**:
+    - Ensure the `sales_data.csv` file exists in the project root or the correct file path is defined in the `.env` file.
+    - Verify the `DATA_FILE_PATH` value points to the correct path or filename.
+
+- **Dependency Issues**:
+    - Ensure you ran `poetry install --no-root` from the correct directory.
+    - You can force reinstalling dependencies by running `poetry install` again.
