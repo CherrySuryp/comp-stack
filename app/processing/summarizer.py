@@ -11,7 +11,7 @@ class DataSummarizer:
             summary[column] = dict(
                 mean=df[column].mean(),
                 median=df[column].median(),
-                mode=df[column].mode()[0] if not df[column].mode().empty else None,
+                mode=df[column].mode()[0],
                 std_dev=df[column].std(),
                 percentile_25=df[column].quantile(0.25),
                 percentile_75=df[column].quantile(0.75),
