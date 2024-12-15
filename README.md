@@ -75,33 +75,32 @@ If your data file has:
 ## Run locally
 ### Prerequisites
 Before proceeding, make sure you have the following installed on your system:
-1. **Python**: Version `3.12` or greater.
-2. **Poetry**: If not already installed, you will install it via the instructions below.
-3. **Uvicorn**: It will be installed as part of the dependencies.
+- **Python**: Version `3.12` or greater.
 
 ### Steps to Deploy Locally
-1. Install Poetry
-First, ensure you have a supported version of Python installed. Then, install `poetry` by running:
+#### 1. Create virtual environment
+```bash
+python -m venv .venv && \
+source .venv/bin/activate
+```
+#### 2. Install Poetry
 ``` bash
 pip install poetry  
 ```
-
-#### 2. Install Dependencies
-Once Poetry is installed, install the application's required dependencies by running the following command in the project's root directory:
+#### 3. Install Dependencies
 ``` bash
 poetry install --no-root  
 ```
-This will set up a virtual environment, resolve dependencies, and install them in the isolated environment.
-#### 3. Prepare the Data File
+#### 4. Prepare the Data File
 Ensure that your data file, `sales_data.csv`, is placed in the project root. By default, the application will look for this file at `./sales_data.csv`.
-#### If the file name or path differs:
+##### If the file name or path differs:
 1. Create a `.env` file in the root directory of the project (if not already present).
 2. Add the following line to specify the correct file path:
 ``` bash
 DATA_FILE_PATH=/path/to/your_data_file.csv  
 ```
 Be sure to replace `/path/to/your_data_file.csv` with the absolute or relative path to your actual data file.
-#### 4. Run the FastAPI Application
+#### 5. Run the FastAPI Application
 Start the application by running the following command in the project root directory:
 ``` bash
 uvicorn app.main:app --port=8000  
