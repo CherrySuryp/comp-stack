@@ -2,8 +2,6 @@ from typing import Literal
 
 import pytest
 
-from tests.api_tests.test_client import test_client
-
 
 @pytest.mark.parametrize(
     "payload,status_code",
@@ -12,7 +10,7 @@ from tests.api_tests.test_client import test_client
         ({"filters": {"date_range": {"start_date": "2023-01-01", "end_date": "2024-01-01"}}}, 200),
     ],
 )
-def test_date_validation(payload: dict, status_code: Literal[200, 422]):
+def test_date_validation(payload: dict, status_code: Literal[200, 422], test_client):
     with test_client as client:
         req = client.post("/summary", json=payload)
     assert req.status_code == status_code
@@ -31,7 +29,7 @@ def test_date_validation(payload: dict, status_code: Literal[200, 422]):
         {"filters": {"product_ids": [1001, 1002, 10016]}},
     ],
 )
-def test_optional_filters(payload):
+def test_optional_filters(payload, test_client):
     with test_client as client:
         req = client.post("/summary", json=payload)
     assert req.status_code == 200
@@ -46,7 +44,7 @@ def test_optional_filters(payload):
         {"columns": ["quantity_sold", "price_per_unit"]},
     ],
 )
-def test_dynamic_columns(payload):
+def test_dynamic_columns(payload, test_client):
     with test_client as client:
         req = client.post("/summary", json=payload)
     res = req.json()
