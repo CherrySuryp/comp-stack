@@ -1,17 +1,17 @@
 import pandas as pd
 
-from app.schema import GetSummary, Summary, Filters
 from app.processing.filter import DataFilter
 from app.processing.summarizer import DataSummarizer
+from app.schema import Filters, GetSummary, Summary
 from app.utils import DataLoader
 
 
 class SummaryGenerator:
     def __init__(
-            self,
-            data_loader: DataLoader = DataLoader(),
-            data_filter: DataFilter = DataFilter(),
-            summarizer: DataSummarizer = DataSummarizer(),
+        self,
+        data_loader: DataLoader = DataLoader(),
+        data_filter: DataFilter = DataFilter(),
+        summarizer: DataSummarizer = DataSummarizer(),
     ):
         self._data_loader = data_loader
         self._filter = data_filter
