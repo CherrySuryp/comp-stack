@@ -9,8 +9,8 @@ Ensure you have the following installed on your system:
 1. **Clone the Repository**
 Clone or download the project repository to your local machine.
 ``` bash
-   git clone <repository_url>
-   cd <repository_directory>
+git clone <repository_url>
+cd <repository_directory>
 ```
 1. **Prepare the Data File**
 Ensure you have your data file ready for the FastAPI application. By default, the configuration expects the file to be at `./sales_data.csv`.
@@ -30,15 +30,15 @@ The service expects the data file to be located at `/app/sales_data.csv` inside 
 **To override the environment variable**:
     1. Add the environment variable to the `docker-compose.yml` file under the `fastapi` service. Example:
 ``` yaml
-        environment:
-          - DATA_FILE_PATH=/custom/path/to/your_data_file.csv
+environment:
+ - DATA_FILE_PATH=/custom/path/to/your_data_file.csv
 ```
 1. Replace `/custom/path/to/your_data_file.csv` with the actual in-container file path.
 
 1. **Run the Service**
 Start the service with Docker Compose:
 ``` bash
-   docker-compose up -d
+docker-compose up -d
 ```
 - The `-d` flag runs the containers in detached mode.
 
@@ -55,13 +55,13 @@ volumes:
 If your data file has:
 - A **different name**: Update `./sales_data.csv` in the `docker-compose.yml` file to the correct file name. Example:
 ``` yaml
-   volumes:
-     - ./your_file.csv:/app/sales_data.csv
+volumes:
+  - ./your_file.csv:/app/sales_data.csv
 ```
 - **different directory**: Provide the full path to your file on the host machine. Example:
 ``` yaml
-   volumes:
-     - /absolute/path/to/your_file.csv:/app/sales_data.csv
+volumes:
+  - /absolute/path/to/your_file.csv:/app/sales_data.csv
 ```
 
 ### Troubleshooting
@@ -69,7 +69,7 @@ If your data file has:
 - **Cannot Access Service at Port 8000**: Verify your firewall settings and ensure the port `8000` is not blocked or used by another process.
 - **Restart Issues**: Since the container restarts automatically (`restart: always`), check the logs for debugging:
 ``` bash
-   docker logs comp-stack-fastapi
+docker logs comp-stack-fastapi
 ```
 
 ## Run locally
