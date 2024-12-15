@@ -9,8 +9,8 @@ Ensure you have the following installed on your system:
 1. **Clone the Repository**
 Clone or download the project repository to your local machine.
 ``` bash
-git clone <repository_url>
-cd <repository_directory>
+git clone https://github.com/CherrySuryp/comp-stack.git
+cd comp-stack/
 ```
 1. **Prepare the Data File**
 Ensure you have your data file ready for the FastAPI application. By default, the configuration expects the file to be at `./sales_data.csv`.
