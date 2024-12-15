@@ -1,7 +1,6 @@
 import pandas as pd
 
-from app.processing.filter import DataFilter
-from app.processing.summarizer import DataSummarizer
+from app.processing import DataFilter, DataSummarizer
 from app.schema import Filters, GetSummary, Summary
 from app.utils import DataLoader
 
