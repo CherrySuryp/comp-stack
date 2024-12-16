@@ -10,11 +10,11 @@ class SummaryGenerator:
         self,
         data_loader: DataLoader = DataLoader(),
         data_filter: DataFilter = DataFilter(),
-        summarizer: DataSummarizer = DataSummarizer(),
+        data_summarizer: DataSummarizer = DataSummarizer(),
     ):
         self._data_loader = data_loader
         self._filter = data_filter
-        self._summarizer = summarizer
+        self._summarizer = data_summarizer
 
     def _filter_data(self, df: pd.DataFrame, filters: Filters) -> pd.DataFrame:
         if filters.date_range:
